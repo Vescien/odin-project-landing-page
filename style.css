@@ -8,14 +8,17 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    margin: auto;
-    width: 1440px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 /* Header section */
 .header {
     background-color: hsl(215, 28%, 17%);
-    padding: 0 15%;
 }
 
 .logo {
@@ -92,6 +95,7 @@ ul {
 .cards {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 44px;
 }
 
@@ -115,7 +119,7 @@ ul {
 
 /* Quote section */
 .quote {
-    padding: 100px 22%;
+    padding: 100px 0;
     background-color: #e5e7eb;
 }
 
@@ -135,15 +139,16 @@ ul {
 /* Call to action section */
 .call-to-action {
     color: white;
-    margin: 100px 200px;
+    margin: 100px 0;
 }   
 
 .cta-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #3882f6;
-    padding: 50px 100px;
+    padding: 44px 100px;
     border-radius: 10px;
 }
 
@@ -157,4 +162,17 @@ ul {
 
 #cta-button {
     border: 2px solid white;
+    flex-shrink: 0;
+}
+
+/* Footer section */
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding: 38px;
+}
+
+.footer-text {
+    color: #f9faf8;
+    font-size: 18px;
 }
