@@ -113,4 +113,24 @@ ul {
 
 .card-text {
     font-size: 18px;
+    margin-bottom: 120px;
+}
+
+/* Quote section */
+.quote {
+    padding: 100px 25%;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
 }
