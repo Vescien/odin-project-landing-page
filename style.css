@@ -8,12 +8,14 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: auto;
+    width: 1440px;
 }
 
 /* Header section */
 .header {
     background-color: hsl(215, 28%, 17%);
-    padding: 0 25%;
+    padding: 0 15%;
 }
 
 .logo {
@@ -38,8 +40,8 @@ body {
 }
 
 .hero-content {
-    width: 420px;
-    margin-right: 140px;
+    width: 460px;
+    margin-right: 40px;
 }
 
 .hero-text {
@@ -51,7 +53,7 @@ body {
 .hero-button {
     font-family: inherit;
     font-size: 18px;
-    padding: 8px 32px;
+    padding: 8px 34px;
     border-radius: 10px;
     color: #f9faf8;
     font-weight: 700;
@@ -79,11 +81,6 @@ ul {
 }
 
 /* Info section */
-
-.info {
-    padding: 0 25%;
-}
-
 .title {
     color: #1f2937;
     font-size: 36px;
@@ -118,7 +115,7 @@ ul {
 
 /* Quote section */
 .quote {
-    padding: 100px 25%;
+    padding: 100px 22%;
     background-color: #e5e7eb;
 }
 
